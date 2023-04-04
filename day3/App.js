@@ -5,15 +5,16 @@ const Title = () => {
 };
 
 const HeaderComponent = () => {
-  return (<div>
-    <Title/>
-    <h1>Namaste react </h1>
-    <h2>Namaste react </h2>
-     
-    </div>);
+  return (
+    <div>
+      <Title />
+      <h1>Namaste react </h1>
+      <h2>Namaste react </h2>
+    </div>
+  );
 };
 
 // create root using createRoot
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // passing react element inside root
-root.render(<HeaderComponent/>);
+root.render(<HeaderComponent />);
